@@ -10,10 +10,10 @@ docker-compose up
 
 Puis allez visiter l'url suivante :
 ```zsh
-http://localhost:9000/products/{id}
+http://localhost:9000/products/1
 ```
 
-L'id étant l'identifiant du produit.
+Le seul produit contenu dans cet exemple s'affichera
 
 ## Autheur
 Aharag Mariane
