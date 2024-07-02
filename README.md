@@ -2,7 +2,7 @@
 
 ## Lancement
 
-Une fois l'application cloné, lancez le container en effectuant:
+Une fois l'application cloné, placez vous dans /produits et lancez le container en effectuant:
 
 ```zsh
 docker-compose up
