@@ -14,7 +14,9 @@ RUN apt-get update && apt-get install -y \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Installer les extensions PHP pour MySQL
-RUN docker-php-ext-install mysqli pdo_mysql
+RUN docker-php-ext-configure gd --with-freetype --with-jpeg \
+&& docker-php-ext-install gd \
+&& docker-php-ext-install pdo pdo_mysql
 
 RUN rm -f /var/www/index.html
 

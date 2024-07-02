@@ -20,7 +20,7 @@ class CreateProductsTable extends Migration
             $table->decimal('price', 8, 2);
             $table->timestamps();
         });
-    }
+    }    
 
     /**
      * Reverse the migrations.
